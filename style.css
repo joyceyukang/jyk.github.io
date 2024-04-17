@@ -11,6 +11,11 @@ body
     overflow-x: hidden;
     background-color: #D6E0E2;
 }
+.main
+{
+    position: absolute;
+    min-height: 100vh;
+}
 .container
 {
     position: relative;
@@ -23,7 +28,7 @@ body
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    background-color: #162A2C;
+    background-color: black;
     text-wrap: wrap;
 }
 .navigation ul
@@ -33,11 +38,13 @@ body
     display: flex;
     flex-direction: row;
 }
-.navigation li {
+.navigation li 
+{
     position: relative;
     list-style: none;
 }
-.navigation a {
+.navigation a 
+{
     float: left;
     padding: 14px 16px;
     text-align: center;
@@ -46,7 +53,7 @@ body
     color: #D6E0E2;
 
     &:hover {
-        background-color: rgb(255, 255, 255, 0.2);
+        background-color: rgba(255, 255, 255, 0.2);
         transition-duration: 0.5s;
     }
 }
