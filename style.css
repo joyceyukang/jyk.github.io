@@ -16,6 +16,11 @@ body
     position: absolute;
     min-height: 100vh;
 }
+.imgBx img
+{
+    height: 350px;
+    width: 350px;
+}
 .container
 {
     position: relative;
